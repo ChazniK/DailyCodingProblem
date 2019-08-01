@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
-//  Google.                                                          //
+//  Google.                                                                                             //
 //  Given a list of numbers and a number k, return whether any two numbers from the list add up to k.   //
 //  For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17                       //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-namespace Problem_01
+namespace Problem01
 {
     class Program
     {
@@ -20,7 +20,7 @@ namespace Problem_01
         // static int[] listOfNumbers = {17};
         static int[] listOfNumbers = {17, 0, 5};
 
-        static public bool addsUpToK(int[] numberList, int k)
+        public static bool addsUpToK(int[] numberList, int k)
         {
             int listLength = numberList.Length;
             Dictionary<int, int> dict = new Dictionary<int, int>();

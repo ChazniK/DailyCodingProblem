@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem_01\\Problem_01.csproj": {}
+    "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem_01\\Problem_01.csproj": {
+    "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem_01\\Problem_01.csproj",
-        "projectName": "Problem_01",
-        "projectPath": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem_01\\Problem_01.csproj",
+        "projectUniqueName": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj",
+        "projectName": "Problem01",
+        "projectPath": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj",
         "packagesPath": "C:\\Users\\ckatz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem_01\\obj\\",
+        "outputPath": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
