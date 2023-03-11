@@ -1,34 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj": {}
+    "/Users/chazni/Desktop/DailyCodingProblem/Problem01/Problem01.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj": {
+    "/Users/chazni/Desktop/DailyCodingProblem/Problem01/Problem01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj",
+        "projectUniqueName": "/Users/chazni/Desktop/DailyCodingProblem/Problem01/Problem01.csproj",
         "projectName": "Problem01",
-        "projectPath": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\Problem01.csproj",
-        "packagesPath": "C:\\Users\\ckatz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ckatz\\Desktop\\Daily_Coding_Problem\\Problem01\\obj\\",
+        "projectPath": "/Users/chazni/Desktop/DailyCodingProblem/Problem01/Problem01.csproj",
+        "packagesPath": "/Users/chazni/.nuget/packages/",
+        "outputPath": "/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\ckatz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/chazni/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "net7"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
+          "net7.0": {
+            "targetAlias": "net7",
             "projectReferences": {}
           }
         },
@@ -39,19 +35,25 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "net7.0": {
+          "targetAlias": "net7",
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

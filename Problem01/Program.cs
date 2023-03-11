@@ -3,13 +3,13 @@ using System.Collections.Generic;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 //  Google.                                                                                             //
-//  Given a list of numbers and a number k, return whether any two numbers from the list add up to k.   //
+//  Given a list of positive numbers and a number k, return whether any two numbers from the list add up to k.   //
 //  For example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17                       //
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 namespace Problem01
 {
-    class Program
+    public class Program
     {
         // static int[] listOfNumbers = {10, 15, 3, 7};
         // static int[] listOfNumbers = {23, -6, 10, 6, 15, 3, 7, 10, 10, 4, 5, 8, 3};
@@ -20,36 +20,35 @@ namespace Problem01
         // static int[] listOfNumbers = {17};
         static int[] listOfNumbers = {17, 0, 5};
 
-        public static bool addsUpToK(int[] numberList, int k)
+        public static int[] addsUpToK(int[] numberList, int k)
         {
-            int listLength = numberList.Length;
-            Dictionary<int, int> dict = new Dictionary<int, int>();
+            var numberDict = new Dictionary<int, int>();
 
-            if (listLength > 1)
+            for (int i = 0; i < numberList.Length; i++)
             {
-                for (int i = 0; i < listLength; i++)
+                var currentNumber = numberList[i];
+                if (numberDict.ContainsKey(k - currentNumber))
                 {
-                    int currentNumber = numberList[i];
-                    
-                    if (dict.ContainsKey(k - currentNumber))
-                    {
-                        return true;
-                    }
-                    else if (dict.ContainsKey(currentNumber))
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        dict.Add(currentNumber, 1);
-                    }
+                    return new int[] {i, numberDict[k - currentNumber]};
                 }
-            } 
-            return false;                
+                else if (numberDict.ContainsKey(currentNumber))
+                {
+                    continue;
+                }
+                else
+                {
+                    numberDict.Add(currentNumber, i);
+                }
+            }
+
+            return null;
         }
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine(addsUpToK(listOfNumbers, 17));   
+            var addsUptoKList  = addsUpToK(listOfNumbers, 17);
+
+            Console.WriteLine(addsUptoKList[0]);
+            Console.WriteLine(addsUptoKList[1]);
         }
     }
 }

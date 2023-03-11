@@ -1,0 +1,15 @@
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/bin/Debug/net7/Problem01
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/bin/Debug/net7/Problem01.deps.json
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/bin/Debug/net7/Problem01.runtimeconfig.json
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/bin/Debug/net7/Problem01.dll
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/bin/Debug/net7/Problem01.pdb
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.csproj.AssemblyReference.cache
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.AssemblyInfoInputs.cache
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.AssemblyInfo.cs
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.csproj.CoreCompileInputs.cache
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.dll
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/refint/Problem01.dll
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.pdb
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/Problem01.genruntimeconfig.cache
+/Users/chazni/Desktop/DailyCodingProblem/Problem01/obj/Debug/net7/ref/Problem01.dll
