@@ -20,35 +20,37 @@ namespace Problem01
         // static int[] listOfNumbers = {17};
         static int[] listOfNumbers = {17, 0, 5};
 
-        public static int[] addsUpToK(int[] numberList, int k)
+        public static bool addsUpToK(int[] numberList, int k)
         {
-            var numberDict = new Dictionary<int, int>();
-
-            for (int i = 0; i < numberList.Length; i++)
+            
+            int listLength = numberList.Length;
+            Dictionary<int, int> dict = new Dictionary<int, int>();
+            if (listLength > 1)
             {
-                var currentNumber = numberList[i];
-                if (numberDict.ContainsKey(k - currentNumber))
+                for (int i = 0; i < listLength; i++)
                 {
-                    return new int[] {i, numberDict[k - currentNumber]};
-                }
-                else if (numberDict.ContainsKey(currentNumber))
-                {
-                    continue;
-                }
-                else
-                {
-                    numberDict.Add(currentNumber, i);
+                    int currentNumber = numberList[i];
+                    
+                    if (dict.ContainsKey(k - currentNumber))
+                    {
+                        return true;
+                    }
+                    else if (dict.ContainsKey(currentNumber))
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        dict.Add(currentNumber, 1);
+                    }
                 }
             }
 
-            return null;
+            return false;
         }
         public static void Main(string[] args)
         {
-            var addsUptoKList  = addsUpToK(listOfNumbers, 17);
-
-            Console.WriteLine(addsUptoKList[0]);
-            Console.WriteLine(addsUptoKList[1]);
+            Console.WriteLine(addsUpToK(listOfNumbers, 17));   
         }
     }
 }
